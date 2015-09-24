@@ -1,0 +1,16 @@
+{
+  "name": "rollup-lodash-es-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "rollup example-main.js"
+  },
+  "author": "megawac",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.16.4"
+  },
+  "dependencies": {
+    "lodash-es": "lodash/lodash#es"
+  }
+}
