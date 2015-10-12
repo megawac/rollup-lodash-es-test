@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "rollup example-main.js"
+    "test": "rollup example-main.js > dist/example-main.js && rollup example-direct.js > dist/example-direct.js && cat dist/example-main.js"
   },
   "author": "megawac",
   "license": "ISC",
